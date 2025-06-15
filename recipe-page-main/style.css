@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@100..900&family=Roboto:wght@100..900&family=Work+Sans:wght@100..900&family=Young+Serif&display=swap");
+
+body {
+  font-family: "Outfit", serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(330, 100%, 98%);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 700px;
+  padding: 40px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+}
+
+.img img{
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+header .info h1{
+  font-family: "Young Serif", serif;
+  font-weight: 200;
+  font-size: 40px;
+  color:hsl(24, 5%, 18%);
+}
+
+ .p-d{
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+  color:hsl(24, 5%, 18%);
+}
+
+.prep {
+  width: 700px;  
+  max-width: 100%; 
+  border-radius: 0;
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px;
+  border-radius: 15px;
+  color: hsl(30, 10%, 34%);
+}
+.info-prep h3{
+  color: hsl(332, 51%, 32%);
+}
+
+.prep .container{
+  padding-top: 0;
+  border-radius: 0;
+}
+
+.p-d::before {
+  content: "";             
+  display: inline-block;      
+  width: 5px;                  
+  height: 5px;      
+  background-color: hsl(332, 51%, 32%);
+  border-radius: 50%;  
+  margin-right: 25px;
+  vertical-align: middle;        
+}
+
+.info-prep p strong{
+  font-family: "Young Serif", serif;
+}
+
+.ingred{
+  width: 700px;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+.ingred h2{
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+  font-weight: 400;
+}
+
+.ingred hr{
+  margin: 25px 0;
+}
+
+.info-ingred p{
+  margin-left: 6px;
+}
+
+.info-ingred p::before{
+  border-radius: 0;
+}
+
+ul{
+  list-style: decimal;
+  
+}
+
+ul li p{
+  line-height: 1.5;
+  color: hsl(30, 10%, 34%);
+}
+
+ul li::marker {
+  color: hsl(14, 45%, 36%);
+  font-size: 1.2em; 
+  font-weight: 600;
+}
+
+.nutrition{
+  width: 700px;
+  max-width: 100%;
+  color: hsl(30, 10%, 34%);;
+}
+
+.nutrition p{
+  font-weight: 400;
+}
+
+.nutrition .info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+
+.nutrition .info strong{
+  display: inline-block;
+  color: hsl(14, 45%, 36%);
+  margin-left: -40px;
+}
