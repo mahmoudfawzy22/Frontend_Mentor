@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  font-size: 16px;
+  background-color: hsl(0, 0%, 8%);
+}
+
+.container {
+  margin: 5%;
+  width: 350px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+}
+
+.container .personal-information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container .personal-information img {
+  height: 70px;
+  border-radius: 50%;
+}
+
+.container .personal-information h2 {
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.container .personal-information h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 13px;
+  color: hsl(75, 94%, 57%);
+}
+
+.personal-information p {
+  color: white;
+  font-size: 14px;
+}
+
+.links {
+  width: 80%;
+}
+
+.links ul {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+}
+
+.links ul li {
+  background-color: hsl(0, 0%, 20%);
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 300px;
+    height: 500px;
+  }
+
+  .personal-information h2 {
+    margin-bottom: 0px;
+  }
+
+  .links ul li{
+    margin: 5px;
+    height: 35px;
+  }
+}
